@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "question": "How do I reset my campus Wi-Fi password?",
+    "answer": "Visit the IT support portal, choose 'Account Services' → 'Reset Wi-Fi Password', and follow the steps. You may need your student ID and date of birth.",
+    "tags": ["wifi", "IT", "password"]
+  },
+  {
+    "id": 2,
+    "question": "Where can I find the academic calendar?",
+    "answer": "The academic calendar is available on the university website under 'Academics' → 'Academic Calendar'. It lists term dates, holidays, and exam periods.",
+    "tags": ["calendar", "academic"]
+  },
+  {
+    "id": 3,
+    "question": "How do I apply for financial aid?",
+    "answer": "Start at the Financial Aid office webpage. Complete the FAFSA, submit required documents, and check your student portal for eligibility updates.",
+    "tags": ["financial aid", "loans", "scholarships"]
+  },
+  {
+    "id": 4,
+    "question": "Can I change my major after enrollment?",
+    "answer": "Yes. Contact your academic advisor to discuss requirements and fill out a major change form in the student services portal.",
+    "tags": ["major", "advisor"]
+  },
+  {
+    "id": 5,
+    "question": "What are the library opening hours?",
+    "answer": "Library hours vary by semester; typically weekdays 8:00–22:00 and weekends 10:00–18:00. Check the library homepage for current hours.",
+    "tags": ["library", "hours"]
+  },
+  {
+    "id": 6,
+    "question": "How do I contact my course instructor?",
+    "answer": "Instructor contact details are listed on the course syllabus and in the course page on the learning management system (LMS). You can message them through the LMS.",
+    "tags": ["instructor", "contact", "lms"]
+  },
+  {
+    "id": 7,
+    "question": "Where can I get counseling services?",
+    "answer": "The Student Wellness Center provides counseling services. Visit their website to book appointments or find crisis resources.",
+    "tags": ["wellness", "counseling"]
+  },
+  {
+    "id": 8,
+    "question": "How do I register for classes?",
+    "answer": "Registration is done through the student portal during registration windows. Check holds on your account and contact your advisor if you have registration issues.",
+    "tags": ["registration", "classes"]
+  }
+]
