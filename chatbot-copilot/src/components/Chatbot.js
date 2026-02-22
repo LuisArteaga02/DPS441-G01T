@@ -1,11 +1,13 @@
 "use client";
 
+
 import React, { useState } from "react";
+import ChatMessages from "./ChatMessages";
 
 export default function Chatbot() {
   const [input, setInput] = useState("");
   const [messages, setMessages] = useState([
-    { id: Date.now(), from: "bot", text: "Hi — ask me a question about campus services or policies." },
+    { id: Date.now(), from: "bot", text: "Hola - Pregúntame sobre servicios o políticas del campus." },
   ]);
   const [loading, setLoading] = useState(false);
 
@@ -48,14 +50,7 @@ export default function Chatbot() {
   return (
     <div className="max-w-1/3 p-4 mx-auto my-5 border-2 border-solid border-white rounded-md bg-blue-500">
       <h2 className="mt-0 text-lg text-center text-white">UBD Chatbot</h2>
-      <div className="overflow-auto p-3 rounded-md bg-white">
-        {messages.map((m) => (
-          <div key={m.id} className="my-4">
-            <div className="text-xs text-slate-500">{m.from === "user" ? "Tú" : "Bot"}</div>
-            <div className={`p-3 rounded-md whitespace-pre-line ${m.from === "user" ? "bg-blue-200" : "bg-slate-200"}`}>{m.text}</div>
-          </div>
-        ))}
-      </div>
+      <ChatMessages messages={messages} />
 
       <div className="flex mt-4">
         <textarea

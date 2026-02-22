@@ -11,8 +11,17 @@ export async function POST(req) {
       });
     }
 
-    const tokens = q.split(/\W+/).filter(Boolean);
+    // Primero busca un match exacto
+    const exact = faqs.filter(f => f.question.toLowerCase() === q);
+    if (exact.length > 0) {
+      return new Response(JSON.stringify({ answers: exact }), {
+        status: 200,
+        headers: { 'Content-Type': 'application/json' },
+      });
+    }
 
+    // Si no hay match exacto, hace un scoring básico por tokens
+    const tokens = q.split(/\W+/).filter(Boolean);
     const scored = faqs
       .map((f) => {
         const text = (f.question + ' ' + f.answer + ' ' + (f.tags || []).join(' ')).toLowerCase();
