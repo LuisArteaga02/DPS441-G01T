@@ -20,14 +20,25 @@ export async function POST(req) {
       });
     }
 
-    // Si no hay match exacto, hace un scoring básico por tokens
-    const tokens = q.split(/\W+/).filter(Boolean);
+    // Si no hay match exacto, hace un scoring mejorado por tokens
+    const stopwords = [ // Lista de stopwords comunes
+      "el", "la", "un", "una", "y", "o", "de", "a", "en", "on", "para", "con", "es", "son", "era", "eran", "por", "como", "desde", "pero", "yo", "mi", "mí", "tú", "tu", "nosotros", "nuestro", "nuestra", "entonces", "si", "sin"
+    ];
+    const tokens = q.split(/\W+/)
+      .filter(Boolean)
+      .filter(t => !stopwords.includes(t));
+
     const scored = faqs
       .map((f) => {
-        const text = (f.question + ' ' + f.answer + ' ' + (f.tags || []).join(' ')).toLowerCase();
+        const question = f.question.toLowerCase();
+        const answer = f.answer.toLowerCase();
+        const tags = (f.tags || []).map(t => t.toLowerCase()).join(' ');
         let score = 0;
         tokens.forEach((t) => {
-          if (text.includes(t)) score += 1;
+          // Peso: pregunta=3, tags=2, respuesta=1
+          if (question.includes(t)) score += 3;
+          if (tags.includes(t)) score += 2;
+          if (answer.includes(t)) score += 1;
         });
         return { ...f, score };
       })
