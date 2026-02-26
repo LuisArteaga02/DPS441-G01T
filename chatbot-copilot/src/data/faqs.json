@@ -1,50 +1,77 @@
 [
   {
     "id": 1,
-    "question": "How do I reset my campus Wi-Fi password?",
-    "answer": "Visit the IT support portal, choose 'Account Services' → 'Reset Wi-Fi Password', and follow the steps. You may need your student ID and date of birth.",
-    "tags": ["wifi", "IT", "password"]
+    "question": "¿Cuál es el calendario académico para este semestre?",
+    "answer": "El calendario académico detallado con fechas de inicio, feriados y exámenes se encuentra en la sección 'Académico' del sitio web institucional o en la cartelera de servicios estudiantiles."
   },
   {
     "id": 2,
-    "question": "Where can I find the academic calendar?",
-    "answer": "The academic calendar is available on the university website under 'Academics' → 'Academic Calendar'. It lists term dates, holidays, and exam periods.",
-    "tags": ["calendar", "academic"]
+    "question": "¿Dónde puedo encontrar mi horario de clases?",
+    "answer": "Puedes consultar tu horario actualizado ingresando al portal del estudiante con tus credenciales, en la sección de 'Mis Cursos' -> 'Horarios'."
   },
   {
     "id": 3,
-    "question": "How do I apply for financial aid?",
-    "answer": "Start at the Financial Aid office webpage. Complete the FAFSA, submit required documents, and check your student portal for eligibility updates.",
-    "tags": ["financial aid", "loans", "scholarships"]
+    "question": "¿Cuándo son los períodos de inscripción para cursos?",
+    "answer": "Los períodos de inscripción varían por facultad. Generalmente se habilitan dos semanas antes del inicio de semestre. Revisa las fechas exactas en el portal académico."
   },
   {
     "id": 4,
-    "question": "Can I change my major after enrollment?",
-    "answer": "Yes. Contact your academic advisor to discuss requirements and fill out a major change form in the student services portal.",
-    "tags": ["major", "advisor"]
+    "question": "¿Dónde está la biblioteca y cuáles son sus horarios?",
+    "answer": "La biblioteca central está ubicada frente al edificio administrativo. Su horario es de lunes a viernes de 7:00 a 21:00 y sábados de 8:00 a 14:00."
   },
   {
     "id": 5,
-    "question": "What are the library opening hours?",
-    "answer": "Library hours vary by semester; typically weekdays 8:00–22:00 and weekends 10:00–18:00. Check the library homepage for current hours.",
-    "tags": ["library", "hours"]
+    "question": "¿Cómo puedo contactar al departamento de servicios estudiantiles?",
+    "answer": "Puedes contactarlos directamente en el Edificio A, planta baja, de 8:00 AM a 5:00 PM, o enviando un correo a servicios@universidad.edu."
   },
   {
     "id": 6,
-    "question": "How do I contact my course instructor?",
-    "answer": "Instructor contact details are listed on the course syllabus and in the course page on the learning management system (LMS). You can message them through the LMS.",
-    "tags": ["instructor", "contact", "lms"]
+    "question": "¿Hay algún evento importante en el campus esta semana?",
+    "answer": "Esta semana tenemos la Feria de Empleabilidad el miércoles y un taller de ciberseguridad en el auditorio central el viernes a las 10:00 AM."
   },
   {
     "id": 7,
-    "question": "Where can I get counseling services?",
-    "answer": "The Student Wellness Center provides counseling services. Visit their website to book appointments or find crisis resources.",
-    "tags": ["wellness", "counseling"]
+    "question": "¿Dónde puedo obtener ayuda si estoy experimentando estrés o problemas emocionales?",
+    "answer": "El Centro de Bienestar Estudiantil ofrece apoyo psicológico gratuito y confidencial. Puedes agendar una cita en el portal de Salud Estudiantil."
   },
   {
     "id": 8,
-    "question": "How do I register for classes?",
-    "answer": "Registration is done through the student portal during registration windows. Check holds on your account and contact your advisor if you have registration issues.",
-    "tags": ["registration", "classes"]
+    "question": "¿Cuáles son los recursos disponibles para estudiantes con discapacidades?",
+    "answer": "La institución cuenta con el Programa de Inclusión que ofrece material adaptado, rampas de acceso y asistencia personalizada."
+  },
+  {
+    "id": 9,
+    "question": "¿Qué servicios de asesoramiento o tutoría están disponibles para mejorar mi rendimiento académico?",
+    "answer": "Contamos con tutorías entre pares y asesoría académica por facultad en la oficina de Éxito Estudiantil."
+  },
+  {
+    "id": 10,
+    "question": "¿Cómo puedo encontrar pasantías o prácticas profesionales relevantes para mi carrera?",
+    "answer": "La Oficina de Desarrollo Profesional publica vacantes semanalmente en el portal de empleabilidad institucional."
+  },
+  {
+    "id": 11,
+    "question": "¿Qué recursos ofrece la universidad para ayudarme a escribir mi currículum vitae?",
+    "answer": "El Centro de Carrera ofrece plantillas oficiales, guías de redacción y sesiones de revisión de CV individuales todos los martes."
+  },
+  {
+    "id": 12,
+    "question": "¿Hay talleres disponibles para prepararme para entrevistas de trabajo?",
+    "answer": "Sí, realizamos simulacros de entrevistas y talleres de lenguaje no verbal mensualmente. Regístrate en el portal."
+  },
+  {
+    "id": 13,
+    "question": "¿Qué clubes o actividades extracurriculares están disponibles en el campus?",
+    "answer": "Existen clubes de Robótica, Música, Debate, Ajedrez y equipos deportivos. Puedes conocerlos en la oficina de Vida Estudiantil."
+  },
+  {
+    "id": 14,
+    "question": "¿Hay alguna actividad interesante planeada para el fin de semana?",
+    "answer": "Este sábado habrá un cine-foro al aire libre en la plaza central y el domingo una caminata organizada por el club de montañismo."
+  },
+  {
+    "id": 15,
+    "question": "¿Cuáles son las opciones de alimentación disponibles en el campus?",
+    "answer": "El campus cuenta con una cafetería principal con almuerzos económicos, un food court en el edificio D y diversas estaciones de snacks."
   }
 ]
